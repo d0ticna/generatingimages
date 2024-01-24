@@ -1,0 +1,7 @@
+$.ajax({
+    url: '/generate-image',
+    type: 'POST',
+    contentType: 'application/json',
+    data: JSON.stringify({ prompt: prompt }),
+    // Handle success and error
+});
